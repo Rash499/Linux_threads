@@ -47,4 +47,8 @@ Didn't get lock
 Didn't get lock
 Didn't get lock
 
+Code demonstrates the use of pthread_mutex_trylock, which is a non-blocking mutex lock function. 
+It shows how multiple threads compete for a shared lock (mutex), with only one thread successfully acquiring the lock at a time.
+The remaining threads fail to acquire the lock and proceed without waiting for it to be released
+
 */
